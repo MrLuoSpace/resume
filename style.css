@@ -1,0 +1,116 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+.mainDiv{
+    width: 1000px;
+    margin: 10px auto;
+    box-shadow: 0 5px 5px #bcbcbc;
+    background-color: #FAFAFA;
+    border: 10px solid #ffffff;
+    font-size: 0;
+}
+.mainDiv .leftDiv{
+    width: 33%;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+.mainDiv .leftDiv .infoDiv{
+    text-align: center;
+    padding: 50px 0;
+}
+.mainDiv .leftDiv .infoDiv img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #bcbcbc;
+    border: thin solid #76BA31;
+}
+.mainDiv .leftDiv .rowDiv h3{
+    background: linear-gradient(to right, #76BA31, #d0fbab);
+    padding-left: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.mainDiv .leftDiv .rowDiv ul{
+    list-style: none;
+    line-height: 30px;
+    padding-left: 20px;
+    color: #666666;
+}
+.degreeDiv{
+    display: inline-block;
+    background-color: #E2E2E2;
+    height: 15px;
+    width: 210px;
+    vertical-align: middle;
+    font-size: 0;
+}
+.degreeDiv span{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    background-color: #CBCBCB;
+}
+
+
+.mainDiv .rightDiv{
+    width: 61%;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 30px;
+}
+.mainDiv .rightDiv div.titleDiv{
+    line-height: 50px;
+    border-bottom: 2px solid #898989;
+    font-size: 1.17em;
+}
+.mainDiv .rightDiv div.titleDiv img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.mainDiv .rightDiv div.titleDiv strong{
+    vertical-align: middle;
+}
+.mainDiv .rightDiv p{
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+    color: #666666;
+    margin: 0;
+    padding: 20px 10px 10px;
+}
+.mainDiv .rightDiv .sRowDiv{
+    font-size: 0;
+}
+.mainDiv .rightDiv .sRowDiv .sLeftDiv{
+    font-size: 16px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.mainDiv .rightDiv .sRowDiv .sLeftDiv span{
+    color: #76BA31;
+}
+.mainDiv .rightDiv .sRowDiv .sRightDiv{
+    font-size: 16px;
+    display: inline-block;
+    width: 66%;
+    vertical-align: top;
+}
+.mainDiv .rightDiv ul{
+    list-style: none;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #666666;
+}
+.mainDiv .rightDiv .sRowDiv .sRightDiv h3 span:nth-child(2){
+    float: right;
+    color: #78BC34;
+}
